@@ -1,0 +1,1 @@
+{"current":"print('Hello, world!')"}

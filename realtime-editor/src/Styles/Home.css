@@ -1,0 +1,76 @@
+.main_content {
+    font-size: 50px;
+    color: #293B51;
+    width: 100%;
+    text-align: center;
+    margin-top: 7%;
+
+}
+
+.supp_content {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #293b5170;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    border: 0px;
+   
+}
+
+.benefits_title {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #293B51;
+}
+
+.supporting_line {
+
+    height: 5px;
+    width: 120px;
+    margin: auto;
+    background-color: #367BF6;
+}
+
+.benefits_list {
+    width: 90%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.ben {
+    width: 25%;
+    /* background-color: red; */
+    border: 1px solid #c8c8c8;
+    background-color: #367bf612;
+    border-radius: 10px;
+}
+
+
+
+.ben_head {
+    width: 60%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #367BF6;
+}
+
+.ben_content {
+    width: 60%;
+    margin: 30px auto;
+    text-align: justify;
+    color: #293B51;
+    font-size: 15px;
+
+}

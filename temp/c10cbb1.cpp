@@ -1,0 +1,1 @@
+{"current":"#include <stdio.h>\nint main() {\n   // printf() displays the string inside quotation\n   printf(\"Hello, World!\");\n   return 0;\n}"}

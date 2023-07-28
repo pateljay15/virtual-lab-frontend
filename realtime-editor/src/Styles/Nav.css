@@ -1,0 +1,79 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    /* background-color: white; */
+    backdrop-filter: blur(4px);
+    box-shadow: 5px -3px 37px -10px black;
+}
+
+.navbar_content {
+    display: flex;
+    flex-direction: row;
+
+    width: 90%;
+    margin: auto;
+    height: 80px;
+}
+
+.app_name {
+    width: 20%;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.options {
+    width: 60%;
+}
+
+.auth {
+    width: 20%;
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+.f_name {
+    color: #367BF6;
+}
+
+.l_name {
+    color: #293B51;
+}
+
+.auth_button {
+    transition-duration: 0.3s;
+    padding: 5px;
+    border: 1px solid #c8c8c8;
+    width: 40%;
+    text-align: center;
+    right: 0;
+    border-radius: 7%;
+    font-weight: 500;
+    float: right;
+}
+
+.auth_button:hover {
+    transition-duration: 0.3s;
+    background-color: #367BF6;
+    cursor: pointer;
+    border: 0px;
+}
+
+.auth_button:hover .btn_text {
+    color: white;
+}
+
+.btn_text {
+    color: #293B51;
+}
+
+.nav_reg
+{
+    display: flex;
+    flex-direction: row;
+    /* margin: auto; */
+    padding-top: 30px;
+    width:30%;
+    justify-content:space-evenly;
+}

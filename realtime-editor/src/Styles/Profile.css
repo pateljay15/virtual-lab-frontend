@@ -1,0 +1,40 @@
+.save
+{
+    width:40px;
+    background-color: #367BF6;
+    color:white;
+    text-align: center;
+    padding:5px;
+    border-radius: 5px;
+}
+
+.save:hover
+{
+    cursor:pointer;
+
+}
+.profile_card
+{
+    width: 70%;
+    margin: auto;
+    border: 1px solid #cfcfcf;
+    padding: 10px;
+    background-color: #efefff;
+    border-radius: 10px;
+}
+
+.profile_label
+{
+    color: #367BF6;
+    font-weight: 600;
+}
+
+.edit_profile
+{
+    width:70%;
+    margin:auto;
+    border: 1px solid #cfcfcf;
+    padding: 10px;
+    background-color: #efefff;
+    border-radius: 10px;
+}

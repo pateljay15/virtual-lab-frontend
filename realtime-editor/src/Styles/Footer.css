@@ -1,0 +1,17 @@
+.footer_content {
+    width: 100%;
+    text-align: center;
+    height: 70px;
+    background-color: #367bf612;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+.foot_f_name {
+    color: #367BF6;
+}
+
+.foot_l_name {
+    color: #293B51;
+}

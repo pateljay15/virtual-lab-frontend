@@ -1,0 +1,1 @@
+{"current":"#include <iostream>\nint main() {\n    std::cout << \"Hello World!\";\n    return 0;\n}"}

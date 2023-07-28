@@ -1,0 +1,99 @@
+.signin {
+    background-color: #367bf612;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.signin_box {
+    background-color: white;
+    /* width: 22%; */
+    width: fit-content;
+    margin: auto;
+    border-radius: 3%;
+    padding: 30px 2%;
+
+}
+
+.signin_title {
+    font-size: 20px;
+    color: #293B51;
+    text-align: center;
+}
+
+.signin_option {
+    display: flex;
+    flex-direction: row;
+}
+
+.f_option {
+    width: 50%;
+    text-align: center;
+    font-size: 15px;
+    height: 30px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.s_option {
+    width: 50%;
+    text-align: center;
+    font-size: 15px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.f_option:hover {
+    color: #367BF6;
+    cursor: pointer;
+}
+
+.s_option:hover {
+    color: #367BF6;
+    cursor: pointer;
+}
+
+.active {
+    border-bottom: 4px solid #367BF6;
+    background-color: #367bf612;
+    color: #367BF6;
+}
+
+.not_active {
+    border-bottom: 4px solid #adadad;
+
+    color: #adadad;
+}
+
+.textField {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #e3e3e3;
+    color: black;
+}
+
+.signin_btn {
+    color: white;
+    width: 100%;
+    background-color: #367BF6;
+    text-align: center;
+    height: 35px;
+    padding-top: 8px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.signin_btn:hover {
+    cursor: pointer;
+    background-color: #2860c3;
+}
+
+.signup_link {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+}
+
+.next_link {
+    color: #367BF6;
+    font-weight: 600;
+}

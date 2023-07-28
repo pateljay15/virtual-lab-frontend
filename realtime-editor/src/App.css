@@ -1,0 +1,320 @@
+.led-red-on {
+  margin: 10px auto;
+  width: 12px;
+  height: 12px;
+  background-color: #f90;
+  border-radius: 50%;
+  box-shadow: #000 0 -1px 7px 1px, inset #600 0 -1px 9px, #F00 0 2px 12px;
+}
+
+.led-green {
+  margin: 10px auto;
+  width: 12px;
+  height: 12px;
+  background-color: #690;
+  border-radius: 50%;
+  box-shadow: #000 0 -1px 7px 1px, inset #460 0 -1px 9px, #7D0 0 2px 12px;
+}
+
+.homePageWrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.formWrapper {
+  background: #293B51;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+footer a {
+  color: #367BF6;
+}
+
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainLabel {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.mainHeader{
+  display: flex;
+}
+
+.mainTitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainTitle h2 {
+  margin: 0;
+}
+
+.mainTitle h5 {
+  margin-top: 0;
+  color: #367BF6;
+}
+
+.homePageLogo {
+  height: 80px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+}
+
+.inputBox {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+.joinBtn {
+  background: #367BF6;
+  width: 100px;
+  margin-left: auto;
+}
+
+.joinBtn:hover, .leaveBtn:hover, .runBtn:hover {
+  background: #367BF6;
+}
+
+.createInfo {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.createNewBtn {
+  color: #367BF6;
+  text-decoration: none;
+  border-bottom: 1px solid #367BF6;
+  transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover, footer a:hover {
+  color: #367BF6;
+  border-color: #367BF6;
+}
+
+
+.mainWrap {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  /* height: 100vh; */
+}
+
+.aside {
+  background: #1c1e29;
+  padding: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.asideInner {
+   flex: 1;
+}
+
+
+.clientsList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.titlestatus {
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+.username {
+  margin-left: 5px;
+  margin-top: -5px;
+  /* display: inline; */
+}
+
+.logo {
+  display: flex;
+  border-bottom: 1px solid #424242;
+  padding-bottom: 10px;
+}
+
+.logoImage {
+  height: 60px;
+}
+
+.leaveBtn {
+  margin-top: 20px;
+  background: #367BF6;
+  width: 100%;
+}
+
+.runBtn {
+  margin-top: 10px;
+  margin-left: 1.5%;
+  background: #367BF6;
+  width: 90px;
+  height: 30px;
+}
+
+
+.CodeMirror {
+  min-height: calc(100vh - 20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
+
+.output {
+  width: 47%;
+height: 52%;
+background: #1c1e29;
+font-size: 40px;
+color: antiquewhite;
+}
+
+.outputField {
+    width: 29%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border:aquamarine;
+    justify-content: center;
+    align-items: center;
+    height: 687px;
+}
+
+.input_data
+{
+  width:95%;
+  border:1px solid black;
+  border-radius: 4px;
+  margin:auto;
+  padding: 10px;
+}
+
+.opt_data
+{
+  border:1px solid black;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.opt_head
+{
+  color: #367BF6;
+  font-size: 15px;
+}
+
+.cls_btn
+{
+  
+  color: #367BF6;
+  background-color: white;
+  border:1px solid #367BF6;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.cls_btn:hover
+{
+  color:white;
+  background-color: #367BF6;
+  cursor:pointer;
+}
+.e_opt
+{
+  padding: 5px;
+  background-color: #ffbbbb;
+  width: 35px;
+  color: red;
+  border-radius: 5px;
+}
+
+.s_opt
+{
+  padding: 5px;
+  background-color: rgb(196, 255, 196);
+  width: 55px;
+  color: green;
+  border-radius: 5px;
+}
+
+.select_lang
+{
+  background-color: #367bf612;
+  height:30px;
+  padding: 10px;
+  width:20%;
+  margin: auto;
+  padding-left:50px;
+  border-radius: 5px;
+}
+
+.main_head_editor
+{
+  display: flex;
+}
+
+.definition_admit
+{
+  width:80%;
+}
+.discuss_input
+{
+  width:90%;
+  margin: 7px 40px;
+  border:2px solid #367BF6;
+  border-radius:5px;
+  background-color: #367bf612;
+}
+
+.discuss_input:focus
+{
+  outline: none;
+}
+
+.lang_input
+{
+  color:#367BF6;
+  font-weight: 600;
+}
